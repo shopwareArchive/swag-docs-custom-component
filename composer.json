@@ -1,0 +1,31 @@
+{
+    "name": "swag/custom-component",
+    "description": "Example plugin which creates a custom component for the Administration",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\CustomComponent\\CustomComponent",
+        "label": {
+            "de-DE": "Beispiel Plugin, welches eine eigene Component zu der Administration hinzufügt",
+            "en-GB": "Example plugin which creates a custom component for the Administration"
+        },
+        "description": {
+            "de-DE": "Beispiel Plugin, welches eine eigene Component zu der Administration hinzufügt",
+            "en-GB": "Example plugin which creates a custom component for the Administration"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\CustomComponent\\": "src/"
+        }
+    }
+}
