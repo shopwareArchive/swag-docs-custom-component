@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\CustomComponent\\CustomComponent",
         "label": {
-            "de-DE": "Beispiel Plugin, welches eine eigene Component zu der Administration hinzufügt",
-            "en-GB": "Example plugin which creates a custom component for the Administration"
+            "de-DE": "Label für das Plugin CustomComponent",
+            "en-GB": "Label for the plugin CustomComponent"
         },
         "description": {
-            "de-DE": "Beispiel Plugin, welches eine eigene Component zu der Administration hinzufügt",
-            "en-GB": "Example plugin which creates a custom component for the Administration"
+            "de-DE": "Beschreibung für das Plugin CustomComponent",
+            "en-GB": "Description for the plugin CustomComponent"
         }
     },
     "autoload": {
